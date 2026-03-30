@@ -1,0 +1,28 @@
+class A 
+{
+	int i;
+	static int j;
+	void m1()
+	{
+		System.out.println("m1 running");
+		System.out.println("j="+j);
+	}
+	static void m2()
+	{
+		System.out.println("m2 running");
+		System.out.println("j="+j);
+	}
+}
+
+class test1
+{
+	public static void main(String[] args){
+		A a1 = new A();
+		a1.j=10;
+		a1.m2();
+
+		A a2 = new A();
+		a2.j=20;
+		a2.m1();
+	}
+}

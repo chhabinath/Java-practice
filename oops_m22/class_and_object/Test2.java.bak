@@ -1,0 +1,26 @@
+class Ac
+{
+	int temp;
+
+	static void incTemp(Ac ref){
+		ref.temp++;
+	}
+
+	void display(){
+		System.out.println(temp);
+	}
+}
+class Test2 
+{
+	public static void main(String[] args) 
+	{
+		Ac ac1 = new Ac();
+		Ac.incTemp(ac1);
+
+		//Ac ac2 = new Ac();
+		//ac2.incTemp();
+
+		ac1.display();
+		ac2.display();
+	}
+}
