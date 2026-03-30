@@ -1,0 +1,15 @@
+class E
+{
+	int i;
+	public static void main(String[] args) 
+	{
+		E e1 = new E();
+		System.out.println(e1); // Memory Address E@372f7a8d
+
+		E e2 = new E();
+		System.out.println(e2); // Memory Address E@2f92e0f4
+
+		E e3 = e1;
+		System.out.println(e3);
+	}
+}

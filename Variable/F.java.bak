@@ -1,0 +1,19 @@
+class F
+{
+	static int i=1;
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Starts");
+		E.m1();
+		E.i = 20;
+		E.m1();
+		System.out.println("Main Ends");
+	}
+	
+	public static void m1()
+	{
+		System.out.println("m1 Starts");
+		System.out.println(E.i);
+		System.out.println("m1 Ends");
+	}
+}

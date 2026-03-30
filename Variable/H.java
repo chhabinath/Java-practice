@@ -1,0 +1,12 @@
+class H
+{
+	static int a=10;
+}
+
+class I 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(H.a);
+	}
+}

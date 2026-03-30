@@ -1,0 +1,12 @@
+class G 
+{
+	static int i =10;
+	public static void main(String[] args) 
+	{
+		int i=20;				// Local Variable
+		System.out.println("Local Variable "+i);	// 20 is the output
+								// Because Local Variable has more preference then the class
+		System.out.println("Static Variable "+G.i);// to print the static varibale use (classname.variablename)
+								// like here G.i;
+	}
+}

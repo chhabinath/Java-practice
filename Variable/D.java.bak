@@ -1,0 +1,8 @@
+class D 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		System.out.println(i); // Compile Time Error as java Doesnot Contain any Garbage Value
+	}
+}
