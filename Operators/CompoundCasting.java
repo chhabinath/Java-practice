@@ -1,0 +1,8 @@
+public class CompoundCasting {
+    public static void main(String[] args) {
+        byte x = 10;
+        //x += 200; // No error
+        x = x + 200; // Uncomment to see the error
+        System.out.println(x);
+    }
+}

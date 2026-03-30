@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class StringInput {
+    public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		float b = sc.nextFloat();
+		long c = sc.nextLong();
+		byte d = sc.nextByte();
+		
+		
+		String s = sc.next();
+
+
+		System.out.println("Integer a = "+a);
+		System.out.println("Float a = "+b);
+		System.out.println("Long a = "+c);
+		System.out.println("Byte a = "+d);
+		System.out.println("String s = "+s);
+	}
+}
